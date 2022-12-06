@@ -1,6 +1,6 @@
-import Head from "next/head";
-import { Navbar } from "../components/Navbar";
-import { AddUser } from "../components/AddUser";
+import Head from 'next/head';
+import { Navbar } from '../components/Navbar';
+import { UserList } from '../components/UserList';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <main>
-        <AddUser />
+        <UserList />
       </main>
     </div>
   );

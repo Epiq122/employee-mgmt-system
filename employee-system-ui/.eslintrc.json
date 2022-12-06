@@ -23,7 +23,7 @@
   "rules": {
     "quotes": [
       "error",
-      "double",
+      "single",
       {
         "allowTemplateLiterals": true
       }
